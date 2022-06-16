@@ -145,6 +145,12 @@ button:active {
     margin: 0 auto;
 }
 
+.row__column {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+
 /* HIGHLIGHTS */
 
 #highlights {
@@ -234,7 +240,7 @@ button:active {
     margin-bottom:16px; 
 }
 
-/* FEATURES */
+/* FEATURED BOOKS */
 
 #features {
     padding-top:8vw;
@@ -291,4 +297,8 @@ button:active {
     color: #bfbfbf;
 }
 
-/* LATEST BOOKS */
+/* EXPLORE BOOKS */
+
+#explore{
+    background-color:rgba(115, 66, 214, 0.1);
+}
