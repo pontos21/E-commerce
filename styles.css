@@ -243,6 +243,7 @@ button:active {
 
 .books{
     display: flex;
+    flex-wrap:wrap;
 }
 
 .book{
@@ -288,6 +289,6 @@ button:active {
     text-decoration: line-through;
     padding-right: 6px;
     color: #bfbfbf;
-    
-    
 }
+
+/* LATEST BOOKS */
